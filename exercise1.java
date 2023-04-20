@@ -5,11 +5,11 @@ public class exercise1 {
 
     public static void main(String[] args) throws Exception {
         //precondition
-        assert iwillBehave == true : "Good Job!";
+        assert iwillBehave == true : "LUH C ATE AT KUYA......";
         //method
         College();
         //postcondition
-        assert iwillGraduate == true : "Congratulations Ganda!";
+        assert iwillGraduate == true : "haha idol c sneakybooger";
 
     }
     static void College() {
