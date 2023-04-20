@@ -14,6 +14,6 @@ public class exercise1 {
     }
     static void College() {
         iwillGraduate = false;
-        System.out.println("Oh noes!!! How tragic :(");
+        System.out.println("Congrats beh!");
     }
 }
