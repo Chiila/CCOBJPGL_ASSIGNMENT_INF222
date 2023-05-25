@@ -1,13 +1,11 @@
 package controller;
 
 import javax.swing.text.html.ImageView;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Alert.AlertType;
-
 import model.*;
 
 public class drinkController {
