@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FDA39F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.drinkController">
+   <children>
+      <ImageView fitHeight="346.0" fitWidth="601.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/pink.JPG" />
+         </image>
+      </ImageView>
+      <BorderPane layoutY="-6.0" prefHeight="68.0" prefWidth="600.0" style="-fx-background-color: #CCCCCC;">
+         <center>
+            <Label prefHeight="68.0" prefWidth="323.0" text="Cilla's Pink Drink &lt;3" textAlignment="CENTER" textFill="#68185f" textOverrun="CENTER_ELLIPSIS" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Cooper Black" size="28.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <ImageView fitHeight="146.0" fitWidth="162.0" layoutX="224.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Mogu-Mogu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="142.0" layoutX="446.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Soju.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="131.0" layoutX="113.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Shake.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="146.0" fitWidth="171.0" layoutX="344.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Milktea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="237.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Barpink.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Barbtn" layoutX="55.0" layoutY="270.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Barpink" textFill="#fc61ff" />
+      <Button fx:id="Shakebtn" layoutX="153.0" layoutY="270.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Shake" textFill="#fc61ff" />
+      <Button fx:id="Mogubtn" layoutX="258.0" layoutY="270.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Mogu-Mogu" textFill="#fc61ff" />
+      <Button fx:id="Milkteabtn" layoutX="386.0" layoutY="270.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Milktea" textFill="#fc61ff" />
+      <Button fx:id="Sojubtn" layoutX="490.0" layoutY="270.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Soju" textFill="#fc61ff" />
+   </children>
+</AnchorPane>
