@@ -35,7 +35,7 @@ public class LoginController {
         String username = mytextfield.getText();
         String password = mypasswordfield.getText();
 
-        if (username.equals("a") && password.equals("a")) {
+        if (username.equals("Cilla") && password.equals("Adlawan")) {
 
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Home.fxml"));
