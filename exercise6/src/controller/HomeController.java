@@ -99,7 +99,7 @@ public class HomeController implements Initializable {
 
     public void buy(ActionEvent event) throws IOException {
 
-        AlertMaker.showSimpleAlert("hello", "item added");
+        AlertMaker.showSimpleAlert("IKEA", "Item has been added to your cart!");
 
         Button sourceButton = (Button) event.getSource();
 
